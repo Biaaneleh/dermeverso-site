@@ -174,12 +174,12 @@ body {
 
 /* ===== Página História ===== */
 
-.logo-centralizada {
+.logo-centralizada-historia {
   margin-top: 50px;
   text-align: center;
 }
 
-.logo-centralizada img {
+.logo-centralizada-historia img {
   width:20%;
   top: 0;
 }
@@ -201,10 +201,12 @@ body {
   margin-bottom: 25px;
 }
 
-.caixa-história p{
-    font-family: 'Philosopher';
-    text-align: center;
-    padding: 15;
+.caixa-história p {
+  font-family: 'Philosopher', sans-serif;
+  text-align: center;
+  padding: 15px;
+  line-height: 2;
+  color: var(--Preto);
 }
 
 /* ===== Página objetivos ===== */

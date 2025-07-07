@@ -1,0 +1,496 @@
+/* ===== Cores da paleta ===== */
+:root {
+   --Preto: #141111;
+   --Vinho: #5B1F2B;
+   --Rosê: #A75F67;
+   --Areia: #E6D5C2;
+   --Dourado:#E7CFA1;
+   --Marfim: #F5F1ED;
+}
+/* Fundo da página */
+body {
+  background-color: var(--Marfim)
+}
+
+/* ===== Menu superior centralizado ===== */
+.menu-topo {
+  background-color: #141111; /* Preto Terroso */
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.menu-topo ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.menu-topo a {
+  text-decoration: none;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 16px;
+  color: #F5F1ED; /* Marfim Suave */
+  transition: 0.3s;
+}
+
+.menu-topo a:hover {
+  color: #E7CFA1; /* Dourado Terroso */
+}
+
+
+/* ===== Dedicatória ===== */
+.logo-centralizada-dedicatoria {
+  margin-top: 0px;
+  text-align: center;
+}
+
+.logo-centralizada-dedicatoria img {
+  width:25%;
+  top: 0;
+}
+
+.dedicatoria {
+  margin-top: 80px; /* espaço pro menu fixo */
+  padding: 20px 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border:5px double #5B1F2B;
+  
+}
+
+.dedicatoria h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: var(--Rosê);
+  margin-bottom: 20px;
+}
+
+.dedicatoria p {
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  line-height: 2;
+  color: var(--Preto);
+}
+
+/* ===== Página Nome & Significado ===== */
+
+/* Logo centralizada abaixo do menu */
+.logo-centralizada-nome {
+  margin-top: -60px;
+  text-align: center;
+}
+
+.logo-centralizada-nome img {
+  width:10%;
+  top: 0;
+}
+
+.nome-significado {
+  margin-top: 150px;
+  padding: 0px;
+}
+
+/* Caixa de conteúdo */
+.caixa-significado {
+    margin-top: 0px; /* espaço pro menu fixo */
+  padding: 20px 60px 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border:5px double #5B1F2B;
+}
+
+.caixa-significado h1 {
+    color: var(--Vinho);
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.caixa-significado h2 {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 22px;
+  margin: 25px 0 10px;
+  color: var(--Rosê);
+}
+
+.caixa-significado p {
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* ===== Página Manifesto ===== */
+
+.logo-centralizada-manifesto {
+  margin-top: -50px;
+  text-align: center;
+}
+
+.logo-centralizada-manifesto img {
+  width:5%;
+  top: 0;
+}
+
+
+.manifesto {
+  margin-top: 120px;
+  padding: 20px;
+}
+
+.caixa-manifesto {
+ margin-top: -100px; /* espaço pro menu fixo */
+  padding: 20px 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border:5px double #5B1F2B;
+}
+
+.caixa-manifesto h1 {
+    color:var(--Dourado);
+    margin-top: 70px;
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.caixa-manifesto p {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 18px;
+  line-height: 2;
+}
+
+/* ===== Página História ===== */
+
+.logo-centralizada {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.logo-centralizada img {
+  width:20%;
+  top: 0;
+}
+
+.caixa-história {
+  margin-top: -30px; /* espaço pro menu fixo */
+  padding: 10px 20px 10px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border:5px double #5B1F2B;
+}
+
+.caixa-história h1 {
+    color: #A75F67;
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.caixa-história p{
+    font-family: 'Philosopher';
+    text-align: center;
+    padding: 15;
+}
+
+/* ===== Página objetivos ===== */
+
+.logo-centralizada-objetivos {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.logo-centralizada-objetivos img {
+  width:10%;
+}
+
+.caixa-objetivos {
+  margin-top: 0px; /* espaço pro menu fixo */
+  padding: 10px 20px 10px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border:5px double #5B1F2B;
+}
+
+.caixa-objetivos h1 {
+    text-align: center;
+    color:var(--Rosê) ;
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.caixa-objetivos h2 {
+    color: var(--Vinho);
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.caixa-objetivos p{
+    font-family: 'Philosopher';
+    text-align: center;
+    padding: 15;
+}
+
+.caixa-objetivos li {
+  margin-bottom: 10px;
+  margin-left: -10px;
+  text-align: left;
+}
+
+/* ===== Página visao ===== */
+
+.logo-centralizada {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.logo-centralizada img {
+  width:15%;
+  top: 0;
+}
+
+.caixa-visao {
+  margin-top: 20px; /* espaço pro menu fixo */
+  padding: 10px 20px 10px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border:5px double #5B1F2B;
+}
+
+.caixa-visao h1 {
+    text-align: center;
+    color:var(--Rosê) ;
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.caixa-visao h2 {
+    color: var(--Vinho);
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.caixa-visao p{
+    font-family: 'Philosopher';
+    text-align: center;
+    padding: 15;
+}
+
+/* ===== Página voz ===== */
+
+.logo-centralizada-voz {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.logo-centralizada-voz img {
+  width:15%;
+  top: 0;
+}
+
+.caixa-voz {
+  margin-top: -30px; /* espaço pro menu fixo */
+  padding: 10px 20px 10px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border:5px double #5B1F2B;
+}
+
+.caixa-voz h1 {
+    text-align: center;
+    color:var(--Rosê) ;
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.caixa-voz h2 {
+    color: var(--Vinho);
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.caixa-voz p{
+    font-family: 'Philosopher';
+    text-align: left;
+    padding: 15;
+}
+
+.caixa-voz li {
+    text-align: left;
+}
+
+/* ===== Página experiencia ===== */
+
+.logo-centralizada-exp {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.logo-centralizada-exp img {
+  width:15%;
+  top: 0;
+}
+
+.caixa-exp {
+  margin-top: -30px; /* espaço pro menu fixo */
+  padding: 10px 20px 10px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border:5px double #5B1F2B;
+}
+
+.caixa-exp h1 {
+    text-align: center;
+    color:var(--Rosê) ;
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.caixa-exp h2 {
+    color: var(--Vinho);
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.caixa-exp p{
+    font-family: 'Philosopher';
+    text-align: left;
+    padding: 15;
+}
+
+.caixa-exp li {
+    text-align: left;
+}
+
+/* ===== Página perfumes ===== */
+
+.logo-centralizada-perf {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.logo-centralizada-perf img {
+  width:15%;
+  top: 0;
+}
+
+.biscasaxê {
+  margin-top: -30px; /* espaço pro menu fixo */
+  padding: 10px 20px 10px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border:5px double #5B1F2B;
+}
+
+.biscasaxê h1 {
+    text-align: center;
+    color:var(--Rosê) ;
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.biscasaxê h2 {
+    color: var(--Vinho);
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.biscasaxê p{
+    font-family: 'Philosopher';
+    text-align: left;
+    padding: 15;
+}
+
+.biscasaxê li {
+    text-align: left;
+}
+
+/* ===== Galeria de perfumes ===== */
+.linha-perfume {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch; /* Estica os elementos para alinharem */
+  gap: 30px;
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+
+.imagem-perfume {
+  flex: 1 1 300px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.imagem-perfume img {
+  width: 100%;
+  height: auto;
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+/* Bloco de texto ao lado da imagem */
+.biscasaxê-bloco-texto-perfume {
+  flex: 1 1 400px;
+  text-align: left;
+}
+
+/* Placeholder para os perfumes sem imagem */
+.imagem-perfume-em-breve {
+  aspect-ratio: 2 / 3; /* proporção visual parecida com 300x450 */
+  width: 100%;
+  max-width: 300px;
+  background-color: #E6D5C2;
+  color: #5B1F2B;
+  border: 2px dashed #5B1F2B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 12px;
+}

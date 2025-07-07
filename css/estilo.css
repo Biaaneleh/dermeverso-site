@@ -184,7 +184,7 @@ body {
   top: 0;
 }
 
-.caixa-história {
+.caixa-historia {
   margin-top: -30px; /* espaço pro menu fixo */
   padding: 10px 20px 10px;
   max-width: 800px;
@@ -194,14 +194,14 @@ body {
   border:5px double #5B1F2B;
 }
 
-.caixa-história h1 {
+.caixa-historia h1 {
     color: #A75F67;
   font-family: 'Playfair Display', serif;
   font-size: 32px;
   margin-bottom: 25px;
 }
 
-.caixa-história p {
+.caixa-historia p {
   font-family: 'Philosopher', sans-serif;
   text-align: center;
   padding: 15px;
